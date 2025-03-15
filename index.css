@@ -1,0 +1,171 @@
+/*"Dancing Script" font family */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Playwrite+IT+Moderna:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+/*Ga Maamli font family */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap');
+
+/*Anton SC font family */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+/* Boogaloo-Ragulat font family*/
+@font-face {
+  font-family: myfont;
+  src: url("../name animation website/fonts/Boogaloo-Regular.ttf");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#main{
+  width: 100vw;
+margin: 0.5vw;
+
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: dimgrey;
+}
+
+#nav{
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  
+}
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+#logo img{
+
+  height: 60px;
+}
+
+#logo p{
+  font-size: 15px;
+}
+
+spans .a{
+  display: inline-flex;
+}
+
+#name {
+width: 95%;
+margin-left: 2.5%;
+font-family: myfont;
+}
+
+#enter{
+  
+  margin-top: 20px;
+  font-size: 40px
+}
+
+#something{
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+#myname{
+  width: 180px;
+  height: 30px;
+}
+
+#fontstyle{
+  width: 95vw;
+  margin-top: 20px;
+  margin-left: 2.5vw;
+}
+#font{
+margin-left: 60%; 
+  font-size: 40px ;
+  
+}
+
+#style{
+  font-size: 30px;
+  margin-left: 50vw;
+}
+
+#select{
+  margin-top: 30px;
+  margin-left: 50vw;
+  width: 48%;
+}
+#body2{
+  width: 95vw;
+  height: 150px;
+  border: 2px solid black;
+  margin-left: 2.5%;
+  margin-top: 0px;
+  display: flex;
+ overflow-x: auto;
+ }
+ 
+ .hi{
+   
+   margin: 20px;
+   height: 90px;
+   min-width: 200px;
+   border: 1px solid black;
+  }
+  
+  .hi video{
+    width: 100% ;
+    height: 100%;
+  }
+  button{
+    
+    margin-left: 2.5vw;
+  }
+  #final,#selectone{
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    }
+    
+#final h3, #selectone h3{
+  
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+  #body3{
+   width: 95%;
+   margin-left: 2.5%;
+   height: 200px;
+   background-color: red;
+   display: flex;
+   align-items: center;
+ }
+ 
+ #videoplay{
+   height: 90%;
+   width: 90%;
+   margin-left: 5%;
+   background-color: black;
+   border: 1px solid grey;
+   box-shadow: 0px 0px 8px 8px black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+#videoplay h2{
+   color: red;
+ }
+ 
+ h2 spans{
+   display: inline-block;
+ }
